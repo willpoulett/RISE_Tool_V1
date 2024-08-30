@@ -21,7 +21,7 @@ def RISE_tool(
     source = ColumnDataSource(data=dict(x=coordinates_list[0]['x'], y=coordinates_list[0]['y'], images=image_paths, colours=colours, predictions = predictions, markers=markers if markers is not None else dummy_markers))
 
     # Create a figure
-    p = figure(plot_width=600, plot_height=500, tools="")
+    p = figure(width=600, height=500, tools="")
 
     # Add scatter renderer
     p.scatter('x', 'y', size=5, source=source, color = "colours", marker = "markers")
