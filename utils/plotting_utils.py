@@ -29,18 +29,18 @@ def RISE_tool(
     # Create legends
     color_legend_items = [
         LegendItem(label = "Predictions"),
-        LegendItem(label="Wildlife", renderers=[p.circle([1], [1], color='red', size=10, visible=False)]),
-        LegendItem(label="Domestic Dog", renderers=[p.circle([1], [1], color='green', size=10, visible=False)]),
-        LegendItem(label="Domestic Cat", renderers=[p.circle([1], [1], color='blue', size=10, visible=False)])
+        LegendItem(label="Wildlife", renderers=[p.circle([1], [1], color='red', visible=False)]),
+        LegendItem(label="Domestic Dog", renderers=[p.circle([1], [1], color='green', visible=False)]),
+        LegendItem(label="Domestic Cat", renderers=[p.circle([1], [1], color='blue', visible=False)])
     ]
 
     if markers is not None:
         marker_legend_items = [
         LegendItem(label = ""),
         LegendItem(label = "Human Labels"),
-        LegendItem(label="Wildlife", renderers=[p.square([1], [1], color='black', size=10, visible=False)]),
-        LegendItem(label="Domestic Dog", renderers=[p.circle([1], [1], color='black', size=10, visible=False)]),
-        LegendItem(label="Domestic Cat", renderers=[p.triangle([1], [1], color='black', size=10, visible=False)])
+        LegendItem(label="Wildlife", renderers=[p.square([1], [1], color='black', visible=False)]),
+        LegendItem(label="Domestic Dog", renderers=[p.circle([1], [1], color='black', visible=False)]),
+        LegendItem(label="Domestic Cat", renderers=[p.triangle([1], [1], color='black', visible=False)])
         ]
 
         color_legend_items += marker_legend_items
