@@ -10,14 +10,23 @@ In order to use the tool, use the `RISE_tool.ipynb` file.
 
 1 - Add a branch to this repo. You can do this by going to [here](https://github.com/willpoulett/RISE_Tool_V1/branches) and clicking `New branch`. Name the branch something unique.
 
-2 - Within this branch open a github codespace. You can do this by pressing `.`. Alternatively, click the green `Code` button, and select 'Create a Codespace`
+2 - Within this branch open a github codespace. You can do this by pressing (`.`). Alternatively, click the green `Code` button, and select 'Create a Codespace`
 
 3 - Within your Codespace, navigate to `RISE_tool.ipynb` and connect to a codespace **kernal**.
 
-4 - Run the cells in the  `RISE_tool.ipynb` notebook. You will need ato specify if you would like to use labels.
+4 - Run the cells in the  `RISE_tool.ipynb` notebook. You will need to specify if you would like to use labels.
 
-5 - An interactive tool wil appear, allowing you to explore the data. 
+5 - An interactive tool wil appear, allowing you to explore the data.
 
-## Using the RISE Tool.
+## Using the RISE Tool:
 
-![Diagram explaining the use of the rise tool](content/how_to_use.png)
+![Diagram explaining the use of the rise tool](content/RISE_tool_recording.gif)
+
+Above is an example useage of the RISE tool.
+
+You can: 
+
+- Highlight multiple images and view them all.
+- Hover over images.
+- Change the projection of the images.
+- OPTIONAL: You can add labels inside the `RISE_tool.ipynb` notebook.
