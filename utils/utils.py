@@ -9,4 +9,4 @@ def init(file_names = ["edge_case_images","non_edge_case_images"]):
         image_paths.extend(fileList)
 
 
-    return image_paths
+    return image_paths.sort()
