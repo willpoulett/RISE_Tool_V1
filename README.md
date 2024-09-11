@@ -8,23 +8,27 @@ In order to use the tool, use the `RISE_tool.ipynb` file.
 
 ## Using the RISE tool in Github Codespaces:
 
-1 - Add a branch to this repo. You can do this by going to [here](https://github.com/willpoulett/RISE_Tool_V1/branches) and clicking `New branch`. Name the branch something unique.
+- Add a branch to this repo. You can do this by going to [here](https://github.com/willpoulett/RISE_Tool_V1/branches) and clicking `New branch`. Name the branch something unique.
 
-2 - Within this branch open a github codespace. You can do this by pressing (`.`). Alternatively, click the green `Code` button, and select 'Create a Codespace`
+- Within this branch open a github codespace. You can do this by pressing (`.`). Alternatively, click the green `Code` button, and select 'Create a Codespace`
 
-3 - Within your Codespace, navigate to `RISE_tool.ipynb` and connect to a codespace **kernal**.
+- If you want to use the RISE tool WITH labels:
 
-4 - Run the cells in the  `RISE_tool.ipynb` notebook. You will need to specify if you would like to use labels.
+    Within your Codespace, navigate to `RISE WITH Labels.ipynb`.
 
-5 - An interactive tool wil appear, allowing you to explore the data.
+    If you want to use the RISE tool WITHOUT labels:
 
-## Using the RISE Tool:
+    Within your Codespace, navigate to `RISE WITHOUT Labels.ipynb`.
+
+    If neither of these work, naviagte to `RISE_tool.ipynb` and connect to a Kernal. Run all the commands. An interactive tool will appear.
+
+## Using the RISE Tool
 
 ![Diagram explaining the use of the rise tool](content/RISE_tool_recording.gif)
 
 Above is an example useage of the RISE tool.
 
-You can: 
+You can:
 
 - Highlight multiple images and view them all.
 - Hover over images.
